@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "645869bf602cc10f073c2f514f5eca06"
+build_time: [1612263271, 309543000]
+inputs:
+  "/Users/ayodejiayankola/Desktop/Udemy Study Project/BitcoinPriceChecker/Pods/SwiftyJSON/Source/SwiftyJSON/SwiftyJSON.swift": [1612263253, 974231778]

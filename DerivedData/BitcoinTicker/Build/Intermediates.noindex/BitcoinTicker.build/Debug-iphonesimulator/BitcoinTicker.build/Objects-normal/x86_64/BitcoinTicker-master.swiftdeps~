@@ -1,6 +1,6 @@
 version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
-options: "5af91c1b645ca67da41d45eeb27d997a"
-build_time: [1612261767, 716927000]
+options: "93db784127ba84c8346d748ab656aa7b"
+build_time: [1612263258, 64224000]
 inputs:
-  "/Users/ayodejiayankola/Desktop/Udemy Study Project/BitcoinPriceChecker/BitcoinTicker/ViewController.swift": [1612261767, 614489381]
+  "/Users/ayodejiayankola/Desktop/Udemy Study Project/BitcoinPriceChecker/BitcoinTicker/ViewController.swift": [1612262935, 633941447]
   "/Users/ayodejiayankola/Desktop/Udemy Study Project/BitcoinPriceChecker/BitcoinTicker/AppDelegate.swift": [1612259476, 928204617]

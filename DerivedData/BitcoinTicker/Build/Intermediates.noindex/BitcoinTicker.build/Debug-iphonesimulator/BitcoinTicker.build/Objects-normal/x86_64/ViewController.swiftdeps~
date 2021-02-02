@@ -15,6 +15,7 @@ provides-dynamic-lookup:
 - "pickerView"
 - "viewDidLoad"
 depends-top-level:
+- !private "+"
 - "Array"
 - "AssignmentPrecedence"
 - !private "FloatLiteralType"
@@ -28,8 +29,10 @@ depends-top-level:
 - "UIPickerViewDelegate"
 - "UIViewController"
 - "ViewController"
+- !private "baseURL"
 - !private "currencyArray"
 - !private "currencyPicker"
+- !private "finalURL"
 - !private "print"
 depends-member:
 - !private ["Sa", "count"]
@@ -41,11 +44,13 @@ depends-member:
 - !private ["So15CALayerDelegateP", "dataSource"]
 - !private ["So15CALayerDelegateP", "delegate"]
 - ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "baseURL"]
 - !private ["s7CVarArgP", "count"]
 - !private ["s7CVarArgP", "currencyArray"]
 - !private ["s7CVarArgP", "currencyPicker"]
 - !private ["s7CVarArgP", "dataSource"]
 - !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "finalURL"]
 - ["s7CVarArgP", "numberOfComponents"]
 - ["s7CVarArgP", "numberOfComponentsInPickerView"]
 - ["s7CVarArgP", "pickerView"]
@@ -59,11 +64,13 @@ depends-member:
 - !private ["10Foundation15ContiguousBytesP", "count"]
 - !private ["10Foundation15ContiguousBytesP", "subscript"]
 - ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "baseURL"]
 - !private ["s28CustomDebugStringConvertibleP", "count"]
 - !private ["s28CustomDebugStringConvertibleP", "currencyArray"]
 - !private ["s28CustomDebugStringConvertibleP", "currencyPicker"]
 - !private ["s28CustomDebugStringConvertibleP", "dataSource"]
 - !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "finalURL"]
 - ["s28CustomDebugStringConvertibleP", "numberOfComponents"]
 - ["s28CustomDebugStringConvertibleP", "numberOfComponentsInPickerView"]
 - ["s28CustomDebugStringConvertibleP", "pickerView"]
@@ -75,11 +82,13 @@ depends-member:
 - !private ["s17CustomReflectableP", "delegate"]
 - !private ["s17CustomReflectableP", "subscript"]
 - ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "baseURL"]
 - !private ["s23CustomStringConvertibleP", "count"]
 - !private ["s23CustomStringConvertibleP", "currencyArray"]
 - !private ["s23CustomStringConvertibleP", "currencyPicker"]
 - !private ["s23CustomStringConvertibleP", "dataSource"]
 - !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "finalURL"]
 - ["s23CustomStringConvertibleP", "numberOfComponents"]
 - ["s23CustomStringConvertibleP", "numberOfComponentsInPickerView"]
 - ["s23CustomStringConvertibleP", "pickerView"]
@@ -98,11 +107,13 @@ depends-member:
 - !private ["SE", "delegate"]
 - !private ["SE", "subscript"]
 - ["SQ", ""]
+- !private ["SQ", "baseURL"]
 - !private ["SQ", "count"]
 - !private ["SQ", "currencyArray"]
 - !private ["SQ", "currencyPicker"]
 - !private ["SQ", "dataSource"]
 - !private ["SQ", "delegate"]
+- !private ["SQ", "finalURL"]
 - ["SQ", "numberOfComponents"]
 - ["SQ", "numberOfComponentsInPickerView"]
 - ["SQ", "pickerView"]
@@ -120,11 +131,13 @@ depends-member:
 - ["s26ExpressibleByStringLiteralP", ""]
 - ["s33ExpressibleByUnicodeScalarLiteralP", ""]
 - ["SH", ""]
+- !private ["SH", "baseURL"]
 - !private ["SH", "count"]
 - !private ["SH", "currencyArray"]
 - !private ["SH", "currencyPicker"]
 - !private ["SH", "dataSource"]
 - !private ["SH", "delegate"]
+- !private ["SH", "finalURL"]
 - ["SH", "numberOfComponents"]
 - ["SH", "numberOfComponentsInPickerView"]
 - ["SH", "pickerView"]
@@ -487,20 +500,24 @@ depends-member:
 - !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "baseURL"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "currencyArray"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "currencyPicker"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "dataSource"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "finalURL"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "numberOfComponents"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "numberOfComponentsInPickerView"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "pickerView"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "baseURL"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "currencyArray"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "currencyPicker"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dataSource"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "delegate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "finalURL"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "numberOfComponents"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "numberOfComponentsInPickerView"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "pickerView"]

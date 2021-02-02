@@ -5,36 +5,7 @@
 	<key>logFormatVersion</key>
 	<integer>10</integer>
 	<key>logs</key>
-	<dict>
-		<key>958CF7F3-9E2F-43A6-9B63-D856EA9265FC</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogMajorGroupSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
-			<key>fileName</key>
-			<string>958CF7F3-9E2F-43A6-9B63-D856EA9265FC.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>S</string>
-			</dict>
-			<key>signature</key>
-			<string>BitcoinTicker-biydwxjezjhyfsbhwpaezyvtxfif</string>
-			<key>timeStartedRecording</key>
-			<real>633955735.74836504</real>
-			<key>timeStoppedRecording</key>
-			<real>633955737.91465998</real>
-			<key>title</key>
-			<string>Build target BitcoinTicker</string>
-			<key>uniqueIdentifier</key>
-			<string>958CF7F3-9E2F-43A6-9B63-D856EA9265FC</string>
-		</dict>
-	</dict>
+	<dict/>
 	<key>preserveOldLogs</key>
 	<true/>
 </dict>
