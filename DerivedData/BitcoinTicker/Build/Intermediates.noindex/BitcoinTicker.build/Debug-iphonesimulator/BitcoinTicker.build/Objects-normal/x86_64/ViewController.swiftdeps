@@ -11,34 +11,147 @@ provides-dynamic-lookup:
 - "currencyArray"
 - "currencyPicker"
 - "finalURL"
+- "numberOfComponents"
+- "pickerView"
 - "viewDidLoad"
 depends-top-level:
+- !private "+"
 - "Array"
+- "AssignmentPrecedence"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- "String"
 - "StringLiteralType"
 - "UILabel"
 - "UIPickerView"
+- "UIPickerViewDataSource"
+- "UIPickerViewDelegate"
 - "UIViewController"
 - "ViewController"
+- !private "baseURL"
+- !private "currencyArray"
+- !private "currencyPicker"
+- !private "finalURL"
+- !private "print"
 depends-member:
+- !private ["Sa", "count"]
+- !private ["Sa", "subscript"]
 - ["SK", ""]
+- !private ["SK", "count"]
+- !private ["SK", "subscript"]
+- !private ["So15CALayerDelegateP", ""]
+- !private ["So15CALayerDelegateP", "dataSource"]
+- !private ["So15CALayerDelegateP", "delegate"]
 - ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "baseURL"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "currencyArray"]
+- !private ["s7CVarArgP", "currencyPicker"]
+- !private ["s7CVarArgP", "dataSource"]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "finalURL"]
+- ["s7CVarArgP", "numberOfComponents"]
+- ["s7CVarArgP", "numberOfComponentsInPickerView"]
+- ["s7CVarArgP", "pickerView"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "subscript"]
 - !private ["s7CVarArgP", "viewDidLoad"]
 - ["Sl", ""]
+- !private ["Sl", "count"]
+- !private ["Sl", "subscript"]
 - ["SL", ""]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
 - ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "baseURL"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "currencyArray"]
+- !private ["s28CustomDebugStringConvertibleP", "currencyPicker"]
+- !private ["s28CustomDebugStringConvertibleP", "dataSource"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "finalURL"]
+- ["s28CustomDebugStringConvertibleP", "numberOfComponents"]
+- ["s28CustomDebugStringConvertibleP", "numberOfComponentsInPickerView"]
+- ["s28CustomDebugStringConvertibleP", "pickerView"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
 - !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "dataSource"]
+- !private ["s17CustomReflectableP", "delegate"]
+- !private ["s17CustomReflectableP", "subscript"]
 - ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "baseURL"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "currencyArray"]
+- !private ["s23CustomStringConvertibleP", "currencyPicker"]
+- !private ["s23CustomStringConvertibleP", "dataSource"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "finalURL"]
+- ["s23CustomStringConvertibleP", "numberOfComponents"]
+- ["s23CustomStringConvertibleP", "numberOfComponentsInPickerView"]
+- ["s23CustomStringConvertibleP", "pickerView"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
 - !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["Se", "count"]
+- !private ["Se", "dataSource"]
+- !private ["Se", "delegate"]
+- !private ["Se", "subscript"]
+- !private ["SE", "count"]
+- !private ["SE", "dataSource"]
+- !private ["SE", "delegate"]
+- !private ["SE", "subscript"]
 - ["SQ", ""]
+- !private ["SQ", "baseURL"]
+- !private ["SQ", "count"]
+- !private ["SQ", "currencyArray"]
+- !private ["SQ", "currencyPicker"]
+- !private ["SQ", "dataSource"]
+- !private ["SQ", "delegate"]
+- !private ["SQ", "finalURL"]
+- ["SQ", "numberOfComponents"]
+- ["SQ", "numberOfComponentsInPickerView"]
+- ["SQ", "pickerView"]
+- !private ["SQ", "print"]
+- !private ["SQ", "subscript"]
 - !private ["SQ", "viewDidLoad"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
 - ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
 - ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s23ExpressibleByNilLiteralP", "dataSource"]
+- !private ["s23ExpressibleByNilLiteralP", "delegate"]
 - ["s32ExpressibleByStringInterpolationP", ""]
 - ["s26ExpressibleByStringLiteralP", ""]
 - ["s33ExpressibleByUnicodeScalarLiteralP", ""]
 - ["SH", ""]
+- !private ["SH", "baseURL"]
+- !private ["SH", "count"]
+- !private ["SH", "currencyArray"]
+- !private ["SH", "currencyPicker"]
+- !private ["SH", "dataSource"]
+- !private ["SH", "delegate"]
+- !private ["SH", "finalURL"]
+- ["SH", "numberOfComponents"]
+- ["SH", "numberOfComponentsInPickerView"]
+- ["SH", "pickerView"]
+- !private ["SH", "print"]
+- !private ["SH", "subscript"]
 - !private ["SH", "viewDidLoad"]
 - ["s25LosslessStringConvertibleP", ""]
+- !private ["SM", ""]
+- !private ["SM", "count"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- ["So8NSCodingP", "Int"]
+- ["So8NSCodingP", "String"]
 - ["So8NSCodingP", "UILabel"]
 - ["So8NSCodingP", "UIPickerView"]
 - ["So8NSCodingP", ""]
@@ -46,9 +159,18 @@ depends-member:
 - ["So8NSCodingP", "bitcoinPriceLabel"]
 - ["So8NSCodingP", "currencyArray"]
 - ["So8NSCodingP", "currencyPicker"]
+- !private ["So8NSCodingP", "dataSource"]
+- ["So8NSCodingP", "deinit"]
+- !private ["So8NSCodingP", "delegate"]
 - ["So8NSCodingP", "finalURL"]
 - ["So8NSCodingP", "init"]
+- ["So8NSCodingP", "numberOfComponents"]
+- ["So8NSCodingP", "numberOfComponentsInPickerView"]
+- ["So8NSCodingP", "pickerView"]
+- !private ["So8NSCodingP", "print"]
 - ["So8NSCodingP", "viewDidLoad"]
+- ["So26NSExtensionRequestHandlingP", "Int"]
+- ["So26NSExtensionRequestHandlingP", "String"]
 - ["So26NSExtensionRequestHandlingP", "UILabel"]
 - ["So26NSExtensionRequestHandlingP", "UIPickerView"]
 - ["So26NSExtensionRequestHandlingP", ""]
@@ -56,9 +178,16 @@ depends-member:
 - ["So26NSExtensionRequestHandlingP", "bitcoinPriceLabel"]
 - ["So26NSExtensionRequestHandlingP", "currencyArray"]
 - ["So26NSExtensionRequestHandlingP", "currencyPicker"]
+- ["So26NSExtensionRequestHandlingP", "deinit"]
 - ["So26NSExtensionRequestHandlingP", "finalURL"]
 - ["So26NSExtensionRequestHandlingP", "init"]
+- ["So26NSExtensionRequestHandlingP", "numberOfComponents"]
+- ["So26NSExtensionRequestHandlingP", "numberOfComponentsInPickerView"]
+- ["So26NSExtensionRequestHandlingP", "pickerView"]
+- !private ["So26NSExtensionRequestHandlingP", "print"]
 - ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "String"]
 - ["So8NSObjectC", "UILabel"]
 - ["So8NSObjectC", "UIPickerView"]
 - ["So8NSObjectC", ""]
@@ -66,9 +195,17 @@ depends-member:
 - ["So8NSObjectC", "bitcoinPriceLabel"]
 - ["So8NSObjectC", "currencyArray"]
 - ["So8NSObjectC", "currencyPicker"]
+- !private ["So8NSObjectC", "dataSource"]
+- !private ["So8NSObjectC", "delegate"]
 - ["So8NSObjectC", "finalURL"]
 - ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "numberOfComponents"]
+- ["So8NSObjectC", "numberOfComponentsInPickerView"]
+- ["So8NSObjectC", "pickerView"]
+- !private ["So8NSObjectC", "print"]
 - ["So8NSObjectC", "viewDidLoad"]
+- ["So8NSObjectP", "Int"]
+- ["So8NSObjectP", "String"]
 - ["So8NSObjectP", "UILabel"]
 - ["So8NSObjectP", "UIPickerView"]
 - ["So8NSObjectP", ""]
@@ -76,12 +213,37 @@ depends-member:
 - ["So8NSObjectP", "bitcoinPriceLabel"]
 - ["So8NSObjectP", "currencyArray"]
 - ["So8NSObjectP", "currencyPicker"]
+- !private ["So8NSObjectP", "dataSource"]
+- ["So8NSObjectP", "deinit"]
+- !private ["So8NSObjectP", "delegate"]
 - ["So8NSObjectP", "finalURL"]
 - ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "numberOfComponents"]
+- ["So8NSObjectP", "numberOfComponentsInPickerView"]
+- ["So8NSObjectP", "pickerView"]
+- !private ["So8NSObjectP", "print"]
 - ["So8NSObjectP", "viewDidLoad"]
+- !private ["Sq", "dataSource"]
+- !private ["Sq", "delegate"]
+- !private ["Sk", ""]
+- !private ["Sk", "count"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", ""]
+- !private ["Sm", "count"]
+- !private ["Sm", "subscript"]
 - ["ST", ""]
+- !private ["ST", "count"]
+- !private ["ST", "subscript"]
 - ["s16TextOutputStreamP", ""]
 - ["s20TextOutputStreamableP", ""]
+- !private ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "dataSource"]
+- !private ["So29UIAccessibilityIdentificationP", "delegate"]
+- !private ["So12UIAppearanceP", ""]
+- !private ["So12UIAppearanceP", "dataSource"]
+- !private ["So12UIAppearanceP", "delegate"]
+- ["So21UIAppearanceContainerP", "Int"]
+- ["So21UIAppearanceContainerP", "String"]
 - ["So21UIAppearanceContainerP", "UILabel"]
 - ["So21UIAppearanceContainerP", "UIPickerView"]
 - ["So21UIAppearanceContainerP", ""]
@@ -89,9 +251,18 @@ depends-member:
 - ["So21UIAppearanceContainerP", "bitcoinPriceLabel"]
 - ["So21UIAppearanceContainerP", "currencyArray"]
 - ["So21UIAppearanceContainerP", "currencyPicker"]
+- !private ["So21UIAppearanceContainerP", "dataSource"]
+- ["So21UIAppearanceContainerP", "deinit"]
+- !private ["So21UIAppearanceContainerP", "delegate"]
 - ["So21UIAppearanceContainerP", "finalURL"]
 - ["So21UIAppearanceContainerP", "init"]
+- ["So21UIAppearanceContainerP", "numberOfComponents"]
+- ["So21UIAppearanceContainerP", "numberOfComponentsInPickerView"]
+- ["So21UIAppearanceContainerP", "pickerView"]
+- !private ["So21UIAppearanceContainerP", "print"]
 - ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So18UIContentContainerP", "Int"]
+- ["So18UIContentContainerP", "String"]
 - ["So18UIContentContainerP", "UILabel"]
 - ["So18UIContentContainerP", "UIPickerView"]
 - ["So18UIContentContainerP", ""]
@@ -99,9 +270,22 @@ depends-member:
 - ["So18UIContentContainerP", "bitcoinPriceLabel"]
 - ["So18UIContentContainerP", "currencyArray"]
 - ["So18UIContentContainerP", "currencyPicker"]
+- ["So18UIContentContainerP", "deinit"]
 - ["So18UIContentContainerP", "finalURL"]
 - ["So18UIContentContainerP", "init"]
+- ["So18UIContentContainerP", "numberOfComponents"]
+- ["So18UIContentContainerP", "numberOfComponentsInPickerView"]
+- ["So18UIContentContainerP", "pickerView"]
+- !private ["So18UIContentContainerP", "print"]
 - ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So17UICoordinateSpaceP", ""]
+- !private ["So17UICoordinateSpaceP", "dataSource"]
+- !private ["So17UICoordinateSpaceP", "delegate"]
+- !private ["So13UIDynamicItemP", ""]
+- !private ["So13UIDynamicItemP", "dataSource"]
+- !private ["So13UIDynamicItemP", "delegate"]
+- ["So18UIFocusEnvironmentP", "Int"]
+- ["So18UIFocusEnvironmentP", "String"]
 - ["So18UIFocusEnvironmentP", "UILabel"]
 - ["So18UIFocusEnvironmentP", "UIPickerView"]
 - ["So18UIFocusEnvironmentP", ""]
@@ -109,9 +293,27 @@ depends-member:
 - ["So18UIFocusEnvironmentP", "bitcoinPriceLabel"]
 - ["So18UIFocusEnvironmentP", "currencyArray"]
 - ["So18UIFocusEnvironmentP", "currencyPicker"]
+- !private ["So18UIFocusEnvironmentP", "dataSource"]
+- ["So18UIFocusEnvironmentP", "deinit"]
+- !private ["So18UIFocusEnvironmentP", "delegate"]
 - ["So18UIFocusEnvironmentP", "finalURL"]
 - ["So18UIFocusEnvironmentP", "init"]
+- ["So18UIFocusEnvironmentP", "numberOfComponents"]
+- ["So18UIFocusEnvironmentP", "numberOfComponentsInPickerView"]
+- ["So18UIFocusEnvironmentP", "pickerView"]
+- !private ["So18UIFocusEnvironmentP", "print"]
 - ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", ""]
+- !private ["So11UIFocusItemP", "dataSource"]
+- !private ["So11UIFocusItemP", "delegate"]
+- !private ["So20UIFocusItemContainerP", ""]
+- !private ["So20UIFocusItemContainerP", "dataSource"]
+- !private ["So20UIFocusItemContainerP", "delegate"]
+- !private ["So24UILargeContentViewerItemP", ""]
+- !private ["So24UILargeContentViewerItemP", "dataSource"]
+- !private ["So24UILargeContentViewerItemP", "delegate"]
+- ["So30UIPasteConfigurationSupportingP", "Int"]
+- ["So30UIPasteConfigurationSupportingP", "String"]
 - ["So30UIPasteConfigurationSupportingP", "UILabel"]
 - ["So30UIPasteConfigurationSupportingP", "UIPickerView"]
 - ["So30UIPasteConfigurationSupportingP", ""]
@@ -119,9 +321,46 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "bitcoinPriceLabel"]
 - ["So30UIPasteConfigurationSupportingP", "currencyArray"]
 - ["So30UIPasteConfigurationSupportingP", "currencyPicker"]
+- !private ["So30UIPasteConfigurationSupportingP", "dataSource"]
+- ["So30UIPasteConfigurationSupportingP", "deinit"]
+- !private ["So30UIPasteConfigurationSupportingP", "delegate"]
 - ["So30UIPasteConfigurationSupportingP", "finalURL"]
 - ["So30UIPasteConfigurationSupportingP", "init"]
+- ["So30UIPasteConfigurationSupportingP", "numberOfComponents"]
+- ["So30UIPasteConfigurationSupportingP", "numberOfComponentsInPickerView"]
+- ["So30UIPasteConfigurationSupportingP", "pickerView"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
 - ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So12UIPickerViewC", "dataSource"]
+- !private ["So12UIPickerViewC", "delegate"]
+- ["So22UIPickerViewDataSourceP", ""]
+- ["So22UIPickerViewDataSourceP", "baseURL"]
+- ["So22UIPickerViewDataSourceP", "bitcoinPriceLabel"]
+- ["So22UIPickerViewDataSourceP", "currencyArray"]
+- ["So22UIPickerViewDataSourceP", "currencyPicker"]
+- ["So22UIPickerViewDataSourceP", "deinit"]
+- ["So22UIPickerViewDataSourceP", "finalURL"]
+- ["So22UIPickerViewDataSourceP", "init"]
+- ["So22UIPickerViewDataSourceP", "numberOfComponents"]
+- ["So22UIPickerViewDataSourceP", "numberOfComponentsInPickerView"]
+- ["So22UIPickerViewDataSourceP", "pickerView"]
+- !private ["So22UIPickerViewDataSourceP", "print"]
+- ["So22UIPickerViewDataSourceP", "viewDidLoad"]
+- ["So20UIPickerViewDelegateP", ""]
+- ["So20UIPickerViewDelegateP", "baseURL"]
+- ["So20UIPickerViewDelegateP", "bitcoinPriceLabel"]
+- ["So20UIPickerViewDelegateP", "currencyArray"]
+- ["So20UIPickerViewDelegateP", "currencyPicker"]
+- ["So20UIPickerViewDelegateP", "deinit"]
+- ["So20UIPickerViewDelegateP", "finalURL"]
+- ["So20UIPickerViewDelegateP", "init"]
+- ["So20UIPickerViewDelegateP", "numberOfComponents"]
+- ["So20UIPickerViewDelegateP", "numberOfComponentsInPickerView"]
+- ["So20UIPickerViewDelegateP", "pickerView"]
+- !private ["So20UIPickerViewDelegateP", "print"]
+- ["So20UIPickerViewDelegateP", "viewDidLoad"]
+- ["So11UIResponderC", "Int"]
+- ["So11UIResponderC", "String"]
 - ["So11UIResponderC", "UILabel"]
 - ["So11UIResponderC", "UIPickerView"]
 - ["So11UIResponderC", ""]
@@ -129,9 +368,17 @@ depends-member:
 - ["So11UIResponderC", "bitcoinPriceLabel"]
 - ["So11UIResponderC", "currencyArray"]
 - ["So11UIResponderC", "currencyPicker"]
+- !private ["So11UIResponderC", "dataSource"]
+- !private ["So11UIResponderC", "delegate"]
 - ["So11UIResponderC", "finalURL"]
 - ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "numberOfComponents"]
+- ["So11UIResponderC", "numberOfComponentsInPickerView"]
+- ["So11UIResponderC", "pickerView"]
+- !private ["So11UIResponderC", "print"]
 - ["So11UIResponderC", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", "Int"]
+- ["So30UIResponderStandardEditActionsP", "String"]
 - ["So30UIResponderStandardEditActionsP", "UILabel"]
 - ["So30UIResponderStandardEditActionsP", "UIPickerView"]
 - ["So30UIResponderStandardEditActionsP", ""]
@@ -139,9 +386,18 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "bitcoinPriceLabel"]
 - ["So30UIResponderStandardEditActionsP", "currencyArray"]
 - ["So30UIResponderStandardEditActionsP", "currencyPicker"]
+- !private ["So30UIResponderStandardEditActionsP", "dataSource"]
+- ["So30UIResponderStandardEditActionsP", "deinit"]
+- !private ["So30UIResponderStandardEditActionsP", "delegate"]
 - ["So30UIResponderStandardEditActionsP", "finalURL"]
 - ["So30UIResponderStandardEditActionsP", "init"]
+- ["So30UIResponderStandardEditActionsP", "numberOfComponents"]
+- ["So30UIResponderStandardEditActionsP", "numberOfComponentsInPickerView"]
+- ["So30UIResponderStandardEditActionsP", "pickerView"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
 - ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- ["So16UIStateRestoringP", "Int"]
+- ["So16UIStateRestoringP", "String"]
 - ["So16UIStateRestoringP", "UILabel"]
 - ["So16UIStateRestoringP", "UIPickerView"]
 - ["So16UIStateRestoringP", ""]
@@ -149,9 +405,16 @@ depends-member:
 - ["So16UIStateRestoringP", "bitcoinPriceLabel"]
 - ["So16UIStateRestoringP", "currencyArray"]
 - ["So16UIStateRestoringP", "currencyPicker"]
+- ["So16UIStateRestoringP", "deinit"]
 - ["So16UIStateRestoringP", "finalURL"]
 - ["So16UIStateRestoringP", "init"]
+- ["So16UIStateRestoringP", "numberOfComponents"]
+- ["So16UIStateRestoringP", "numberOfComponentsInPickerView"]
+- ["So16UIStateRestoringP", "pickerView"]
+- !private ["So16UIStateRestoringP", "print"]
 - ["So16UIStateRestoringP", "viewDidLoad"]
+- ["So18UITraitEnvironmentP", "Int"]
+- ["So18UITraitEnvironmentP", "String"]
 - ["So18UITraitEnvironmentP", "UILabel"]
 - ["So18UITraitEnvironmentP", "UIPickerView"]
 - ["So18UITraitEnvironmentP", ""]
@@ -159,9 +422,18 @@ depends-member:
 - ["So18UITraitEnvironmentP", "bitcoinPriceLabel"]
 - ["So18UITraitEnvironmentP", "currencyArray"]
 - ["So18UITraitEnvironmentP", "currencyPicker"]
+- !private ["So18UITraitEnvironmentP", "dataSource"]
+- ["So18UITraitEnvironmentP", "deinit"]
+- !private ["So18UITraitEnvironmentP", "delegate"]
 - ["So18UITraitEnvironmentP", "finalURL"]
 - ["So18UITraitEnvironmentP", "init"]
+- ["So18UITraitEnvironmentP", "numberOfComponents"]
+- ["So18UITraitEnvironmentP", "numberOfComponentsInPickerView"]
+- ["So18UITraitEnvironmentP", "pickerView"]
+- !private ["So18UITraitEnvironmentP", "print"]
 - ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So23UIUserActivityRestoringP", "Int"]
+- ["So23UIUserActivityRestoringP", "String"]
 - ["So23UIUserActivityRestoringP", "UILabel"]
 - ["So23UIUserActivityRestoringP", "UIPickerView"]
 - ["So23UIUserActivityRestoringP", ""]
@@ -169,9 +441,21 @@ depends-member:
 - ["So23UIUserActivityRestoringP", "bitcoinPriceLabel"]
 - ["So23UIUserActivityRestoringP", "currencyArray"]
 - ["So23UIUserActivityRestoringP", "currencyPicker"]
+- !private ["So23UIUserActivityRestoringP", "dataSource"]
+- ["So23UIUserActivityRestoringP", "deinit"]
+- !private ["So23UIUserActivityRestoringP", "delegate"]
 - ["So23UIUserActivityRestoringP", "finalURL"]
 - ["So23UIUserActivityRestoringP", "init"]
+- ["So23UIUserActivityRestoringP", "numberOfComponents"]
+- ["So23UIUserActivityRestoringP", "numberOfComponentsInPickerView"]
+- ["So23UIUserActivityRestoringP", "pickerView"]
+- !private ["So23UIUserActivityRestoringP", "print"]
 - ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- ["So6UIViewC", ""]
+- !private ["So6UIViewC", "dataSource"]
+- !private ["So6UIViewC", "delegate"]
+- ["So16UIViewControllerC", "Int"]
+- ["So16UIViewControllerC", "String"]
 - ["So16UIViewControllerC", "UILabel"]
 - ["So16UIViewControllerC", "UIPickerView"]
 - ["So16UIViewControllerC", ""]
@@ -181,7 +465,13 @@ depends-member:
 - ["So16UIViewControllerC", "currencyPicker"]
 - ["So16UIViewControllerC", "finalURL"]
 - ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "numberOfComponents"]
+- ["So16UIViewControllerC", "numberOfComponentsInPickerView"]
+- ["So16UIViewControllerC", "pickerView"]
+- !private ["So16UIViewControllerC", "print"]
 - ["So16UIViewControllerC", "viewDidLoad"]
+- ["13BitcoinTicker14ViewControllerC", "Int"]
+- ["13BitcoinTicker14ViewControllerC", "String"]
 - ["13BitcoinTicker14ViewControllerC", "UILabel"]
 - ["13BitcoinTicker14ViewControllerC", "UIPickerView"]
 - ["13BitcoinTicker14ViewControllerC", ""]
@@ -192,58 +482,135 @@ depends-member:
 - ["13BitcoinTicker14ViewControllerC", "deinit"]
 - ["13BitcoinTicker14ViewControllerC", "finalURL"]
 - ["13BitcoinTicker14ViewControllerC", "init"]
+- ["13BitcoinTicker14ViewControllerC", "numberOfComponents"]
+- ["13BitcoinTicker14ViewControllerC", "numberOfComponentsInPickerView"]
+- ["13BitcoinTicker14ViewControllerC", "pickerView"]
+- !private ["13BitcoinTicker14ViewControllerC", "print"]
 - ["13BitcoinTicker14ViewControllerC", "viewDidLoad"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
 - ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 - ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "baseURL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "currencyArray"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "currencyPicker"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataSource"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "finalURL"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "numberOfComponents"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "numberOfComponentsInPickerView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "pickerView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "baseURL"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "currencyArray"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "currencyPicker"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dataSource"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "delegate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "finalURL"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "numberOfComponents"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "numberOfComponentsInPickerView"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "pickerView"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "print"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewDidLoad"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "dataSource"]
+- !private ["s21_ObjectiveCBridgeableP", "delegate"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "dataSource"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "delegate"]
 depends-nominal:
+- !private "Sa"
 - "SK"
+- !private "So15CALayerDelegateP"
 - "s7CVarArgP"
 - "Sl"
 - "SL"
+- !private "10Foundation15ContiguousBytesP"
 - "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SE"
 - "SQ"
 - "s25ExpressibleByArrayLiteralP"
 - "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
 - "s32ExpressibleByStringInterpolationP"
 - "s26ExpressibleByStringLiteralP"
 - "s33ExpressibleByUnicodeScalarLiteralP"
 - "SH"
 - "s25LosslessStringConvertibleP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
 - "So8NSCodingP"
 - "So26NSExtensionRequestHandlingP"
 - "So8NSObjectC"
 - "So8NSObjectP"
+- !private "Sq"
+- !private "Sk"
+- !private "Sm"
 - "ST"
 - "s16TextOutputStreamP"
 - "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
 - "So21UIAppearanceContainerP"
 - "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
 - "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So24UILargeContentViewerItemP"
 - "So30UIPasteConfigurationSupportingP"
+- !private "So12UIPickerViewC"
+- "So22UIPickerViewDataSourceP"
+- "So20UIPickerViewDelegateP"
 - "So11UIResponderC"
 - "So30UIResponderStandardEditActionsP"
 - "So16UIStateRestoringP"
 - "So18UITraitEnvironmentP"
 - "So23UIUserActivityRestoringP"
+- "So6UIViewC"
 - "So16UIViewControllerC"
 - "13BitcoinTicker14ViewControllerC"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
 - "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
 - "s34_ExpressibleByBuiltinStringLiteralP"
 - "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
 depends-dynamic-lookup:
 depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/dyld.modulemap"
@@ -261,4 +628,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "9fe8b7a2e555b44bdf0ecc27ae518077"
+interface-hash: "a862665d6c9435578d19eca70b2d0bbc"
