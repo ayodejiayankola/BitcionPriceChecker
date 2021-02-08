@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>684E54F4-A559-4F47-8951-E66B08628E91</key>
+		<key>2BFFACE0-11FA-4C5A-A5F0-DD0034A139EF</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>684E54F4-A559-4F47-8951-E66B08628E91.xcactivitylog</string>
+			<string>2BFFACE0-11FA-4C5A-A5F0-DD0034A139EF.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -32,13 +32,115 @@
 			<key>signature</key>
 			<string>Run BitcoinTicker</string>
 			<key>timeStartedRecording</key>
-			<real>633955737.93228805</real>
+			<real>634473792.31113803</real>
 			<key>timeStoppedRecording</key>
-			<real>633956065.70432901</real>
+			<real>634474511.22599196</real>
 			<key>title</key>
 			<string>Run BitcoinTicker</string>
 			<key>uniqueIdentifier</key>
-			<string>684E54F4-A559-4F47-8951-E66B08628E91</string>
+			<string>2BFFACE0-11FA-4C5A-A5F0-DD0034A139EF</string>
+		</dict>
+		<key>72BBFDE2-4877-44FE-AECE-354EA52425D9</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>72BBFDE2-4877-44FE-AECE-354EA52425D9.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>BitcoinTicker project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>BitcoinTicker</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run BitcoinTicker</string>
+			<key>timeStartedRecording</key>
+			<real>634476809.95654202</real>
+			<key>timeStoppedRecording</key>
+			<real>634476838.31061602</real>
+			<key>title</key>
+			<string>Run BitcoinTicker</string>
+			<key>uniqueIdentifier</key>
+			<string>72BBFDE2-4877-44FE-AECE-354EA52425D9</string>
+		</dict>
+		<key>87A8011E-57F0-4694-8776-975CAF0A5760</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>87A8011E-57F0-4694-8776-975CAF0A5760.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>BitcoinTicker project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>BitcoinTicker</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run BitcoinTicker</string>
+			<key>timeStartedRecording</key>
+			<real>634216375.58152401</real>
+			<key>timeStoppedRecording</key>
+			<real>634216379.65351295</real>
+			<key>title</key>
+			<string>Run BitcoinTicker</string>
+			<key>uniqueIdentifier</key>
+			<string>87A8011E-57F0-4694-8776-975CAF0A5760</string>
+		</dict>
+		<key>F55AAADB-52CB-499C-812F-AC5CFE8F449A</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>F55AAADB-52CB-499C-812F-AC5CFE8F449A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>BitcoinTicker project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>BitcoinTicker</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run BitcoinTicker</string>
+			<key>timeStartedRecording</key>
+			<real>634474515.66728699</real>
+			<key>timeStoppedRecording</key>
+			<real>634476807.82032001</real>
+			<key>title</key>
+			<string>Run BitcoinTicker</string>
+			<key>uniqueIdentifier</key>
+			<string>F55AAADB-52CB-499C-812F-AC5CFE8F449A</string>
 		</dict>
 	</dict>
 </dict>
